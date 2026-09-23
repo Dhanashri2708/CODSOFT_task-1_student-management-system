@@ -8,7 +8,6 @@ A full-stack MERN application for managing students, teachers, attendance,fees, 
 - **Student Management** — Add, view, update, and remove student records
 - **Teacher Management** — Add, view, update, and remove teacher records
 - **Attendance** — Teachers mark attendance per class; students view their own attendance history
-- **Examinations & Results** — Create exams, record marks, auto-calculated grades
 - **Fees** — Track fee assignments, partial/full payments, and payment history
 - **Academic Records** — Auto-generated or manually entered yearly report cards
 
@@ -35,12 +34,6 @@ npm install
 ```
 
 Create a `.env` file in `backend/` (see `.env.example`):
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-```
 
 Run the backend:
 
